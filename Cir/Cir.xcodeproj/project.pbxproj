@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C8BBEF0CAE6297853DA07F /* Pods_Cir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCEACCBB369D3CAFC87EB4B /* Pods_Cir.framework */; };
+		BF2A3707202FEDC600832672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A3706202FEDC600832672 /* AppDelegate.m */; };
+		BF2A370A202FEDC600832672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A3709202FEDC600832672 /* ViewController.m */; };
+		BF2A370D202FEDC600832672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2A370B202FEDC600832672 /* Main.storyboard */; };
+		BF2A370F202FEDC600832672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2A370E202FEDC600832672 /* Assets.xcassets */; };
+		BF2A3712202FEDC600832672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2A3710202FEDC600832672 /* LaunchScreen.storyboard */; };
+		BF2A3715202FEDC600832672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A3714202FEDC600832672 /* main.m */; };
+		BF2A371F202FEDC600832672 /* CirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A371E202FEDC600832672 /* CirTests.m */; };
+		BF2A372A202FEDC600832672 /* CirUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A3729202FEDC600832672 /* CirUITests.m */; };
+		BF2A3739202FF10600832672 /* LNCirView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A3738202FF10600832672 /* LNCirView.m */; };
+		BF88CB63203173B3008460B4 /* LNCirCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF88CB62203173B3008460B4 /* LNCirCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF2A371B202FEDC600832672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2A36FA202FEDC600832672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2A3701202FEDC600832672;
+			remoteInfo = Cir;
+		};
+		BF2A3726202FEDC600832672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2A36FA202FEDC600832672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2A3701202FEDC600832672;
+			remoteInfo = Cir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17A064CA2539CF7DDC16B364 /* Pods-Cir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cir/Pods-Cir.debug.xcconfig"; sourceTree = "<group>"; };
+		7BCEACCBB369D3CAFC87EB4B /* Pods_Cir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2A3702202FEDC600832672 /* Cir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2A3705202FEDC600832672 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF2A3706202FEDC600832672 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF2A3708202FEDC600832672 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF2A3709202FEDC600832672 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF2A370C202FEDC600832672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2A370E202FEDC600832672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2A3711202FEDC600832672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF2A3713202FEDC600832672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2A3714202FEDC600832672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2A371A202FEDC600832672 /* CirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2A371E202FEDC600832672 /* CirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirTests.m; sourceTree = "<group>"; };
+		BF2A3720202FEDC600832672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2A3725202FEDC600832672 /* CirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2A3729202FEDC600832672 /* CirUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirUITests.m; sourceTree = "<group>"; };
+		BF2A372B202FEDC600832672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2A3737202FF10600832672 /* LNCirView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNCirView.h; sourceTree = "<group>"; };
+		BF2A3738202FF10600832672 /* LNCirView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNCirView.m; sourceTree = "<group>"; };
+		BF88CB61203173B3008460B4 /* LNCirCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNCirCellView.h; sourceTree = "<group>"; };
+		BF88CB62203173B3008460B4 /* LNCirCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNCirCellView.m; sourceTree = "<group>"; };
+		CE2864C307B3F638FA4943A5 /* Pods-Cir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cir/Pods-Cir.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2A36FF202FEDC600832672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8BBEF0CAE6297853DA07F /* Pods_Cir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A3717202FEDC600832672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A3722202FEDC600832672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385A376935D6016E86F4C9EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BCEACCBB369D3CAFC87EB4B /* Pods_Cir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2A36F9202FEDC600832672 = {
+			isa = PBXGroup;
+			children = (
+				BF2A3704202FEDC600832672 /* Cir */,
+				BF2A371D202FEDC600832672 /* CirTests */,
+				BF2A3728202FEDC600832672 /* CirUITests */,
+				BF2A3703202FEDC600832672 /* Products */,
+				E46AA96C24BDB7F77E56A759 /* Pods */,
+				385A376935D6016E86F4C9EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2A3703202FEDC600832672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A3702202FEDC600832672 /* Cir.app */,
+				BF2A371A202FEDC600832672 /* CirTests.xctest */,
+				BF2A3725202FEDC600832672 /* CirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2A3704202FEDC600832672 /* Cir */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A3705202FEDC600832672 /* AppDelegate.h */,
+				BF2A3706202FEDC600832672 /* AppDelegate.m */,
+				BF2A3708202FEDC600832672 /* ViewController.h */,
+				BF2A3709202FEDC600832672 /* ViewController.m */,
+				BF88CB61203173B3008460B4 /* LNCirCellView.h */,
+				BF88CB62203173B3008460B4 /* LNCirCellView.m */,
+				BF2A3737202FF10600832672 /* LNCirView.h */,
+				BF2A3738202FF10600832672 /* LNCirView.m */,
+				BF2A370B202FEDC600832672 /* Main.storyboard */,
+				BF2A370E202FEDC600832672 /* Assets.xcassets */,
+				BF2A3710202FEDC600832672 /* LaunchScreen.storyboard */,
+				BF2A3713202FEDC600832672 /* Info.plist */,
+				BF2A3714202FEDC600832672 /* main.m */,
+			);
+			path = Cir;
+			sourceTree = "<group>";
+		};
+		BF2A371D202FEDC600832672 /* CirTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A371E202FEDC600832672 /* CirTests.m */,
+				BF2A3720202FEDC600832672 /* Info.plist */,
+			);
+			path = CirTests;
+			sourceTree = "<group>";
+		};
+		BF2A3728202FEDC600832672 /* CirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A3729202FEDC600832672 /* CirUITests.m */,
+				BF2A372B202FEDC600832672 /* Info.plist */,
+			);
+			path = CirUITests;
+			sourceTree = "<group>";
+		};
+		E46AA96C24BDB7F77E56A759 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A064CA2539CF7DDC16B364 /* Pods-Cir.debug.xcconfig */,
+				CE2864C307B3F638FA4943A5 /* Pods-Cir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2A3701202FEDC600832672 /* Cir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2A372E202FEDC600832672 /* Build configuration list for PBXNativeTarget "Cir" */;
+			buildPhases = (
+				FDEF715ECDC964BC0EE88F16 /* [CP] Check Pods Manifest.lock */,
+				BF2A36FE202FEDC600832672 /* Sources */,
+				BF2A36FF202FEDC600832672 /* Frameworks */,
+				BF2A3700202FEDC600832672 /* Resources */,
+				AD67F27979B6B3FE943FE157 /* [CP] Embed Pods Frameworks */,
+				D134FA7FD0000E172AC5CEBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cir;
+			productName = Cir;
+			productReference = BF2A3702202FEDC600832672 /* Cir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF2A3719202FEDC600832672 /* CirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2A3731202FEDC600832672 /* Build configuration list for PBXNativeTarget "CirTests" */;
+			buildPhases = (
+				BF2A3716202FEDC600832672 /* Sources */,
+				BF2A3717202FEDC600832672 /* Frameworks */,
+				BF2A3718202FEDC600832672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2A371C202FEDC600832672 /* PBXTargetDependency */,
+			);
+			name = CirTests;
+			productName = CirTests;
+			productReference = BF2A371A202FEDC600832672 /* CirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF2A3724202FEDC600832672 /* CirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2A3734202FEDC600832672 /* Build configuration list for PBXNativeTarget "CirUITests" */;
+			buildPhases = (
+				BF2A3721202FEDC600832672 /* Sources */,
+				BF2A3722202FEDC600832672 /* Frameworks */,
+				BF2A3723202FEDC600832672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2A3727202FEDC600832672 /* PBXTargetDependency */,
+			);
+			name = CirUITests;
+			productName = CirUITests;
+			productReference = BF2A3725202FEDC600832672 /* CirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2A36FA202FEDC600832672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LST_PRO;
+				TargetAttributes = {
+					BF2A3701202FEDC600832672 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BF2A3719202FEDC600832672 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF2A3701202FEDC600832672;
+					};
+					BF2A3724202FEDC600832672 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF2A3701202FEDC600832672;
+					};
+				};
+			};
+			buildConfigurationList = BF2A36FD202FEDC600832672 /* Build configuration list for PBXProject "Cir" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF2A36F9202FEDC600832672;
+			productRefGroup = BF2A3703202FEDC600832672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2A3701202FEDC600832672 /* Cir */,
+				BF2A3719202FEDC600832672 /* CirTests */,
+				BF2A3724202FEDC600832672 /* CirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2A3700202FEDC600832672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A3712202FEDC600832672 /* LaunchScreen.storyboard in Resources */,
+				BF2A370F202FEDC600832672 /* Assets.xcassets in Resources */,
+				BF2A370D202FEDC600832672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A3718202FEDC600832672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A3723202FEDC600832672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD67F27979B6B3FE943FE157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cir/Pods-Cir-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cir/Pods-Cir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D134FA7FD0000E172AC5CEBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cir/Pods-Cir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEF715ECDC964BC0EE88F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cir-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2A36FE202FEDC600832672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A370A202FEDC600832672 /* ViewController.m in Sources */,
+				BF2A3739202FF10600832672 /* LNCirView.m in Sources */,
+				BF2A3715202FEDC600832672 /* main.m in Sources */,
+				BF88CB63203173B3008460B4 /* LNCirCellView.m in Sources */,
+				BF2A3707202FEDC600832672 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A3716202FEDC600832672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A371F202FEDC600832672 /* CirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2A3721202FEDC600832672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A372A202FEDC600832672 /* CirUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF2A371C202FEDC600832672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2A3701202FEDC600832672 /* Cir */;
+			targetProxy = BF2A371B202FEDC600832672 /* PBXContainerItemProxy */;
+		};
+		BF2A3727202FEDC600832672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2A3701202FEDC600832672 /* Cir */;
+			targetProxy = BF2A3726202FEDC600832672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF2A370B202FEDC600832672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2A370C202FEDC600832672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF2A3710202FEDC600832672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2A3711202FEDC600832672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2A372C202FEDC600832672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF2A372D202FEDC600832672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2A372F202FEDC600832672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A064CA2539CF7DDC16B364 /* Pods-Cir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX36LP773P;
+				INFOPLIST_FILE = Cir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lst.cir.Cir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF2A3730202FEDC600832672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2864C307B3F638FA4943A5 /* Pods-Cir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX36LP773P;
+				INFOPLIST_FILE = Cir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lst.cir.Cir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF2A3732202FEDC600832672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX36LP773P;
+				INFOPLIST_FILE = CirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lst.cir.CirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cir.app/Cir";
+			};
+			name = Debug;
+		};
+		BF2A3733202FEDC600832672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX36LP773P;
+				INFOPLIST_FILE = CirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lst.cir.CirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cir.app/Cir";
+			};
+			name = Release;
+		};
+		BF2A3735202FEDC600832672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX36LP773P;
+				INFOPLIST_FILE = CirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lst.cir.CirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cir;
+			};
+			name = Debug;
+		};
+		BF2A3736202FEDC600832672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX36LP773P;
+				INFOPLIST_FILE = CirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lst.cir.CirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2A36FD202FEDC600832672 /* Build configuration list for PBXProject "Cir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2A372C202FEDC600832672 /* Debug */,
+				BF2A372D202FEDC600832672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2A372E202FEDC600832672 /* Build configuration list for PBXNativeTarget "Cir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2A372F202FEDC600832672 /* Debug */,
+				BF2A3730202FEDC600832672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2A3731202FEDC600832672 /* Build configuration list for PBXNativeTarget "CirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2A3732202FEDC600832672 /* Debug */,
+				BF2A3733202FEDC600832672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2A3734202FEDC600832672 /* Build configuration list for PBXNativeTarget "CirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2A3735202FEDC600832672 /* Debug */,
+				BF2A3736202FEDC600832672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF2A36FA202FEDC600832672 /* Project object */;
+}
